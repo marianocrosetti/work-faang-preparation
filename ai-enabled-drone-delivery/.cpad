@@ -1,0 +1,32 @@
+{
+  "targets": {
+    "run_main_py": {
+      "label": "Main (main.py)",
+      "command": "python src/main.py"
+    },
+    "test_simulator": {
+      "label": "Test (test_simulator.py)",
+      "command": "python src/test_simulator.py"
+    },
+    "test_planner": {
+      "label": "Test (test_planner.py)",
+      "command": "python src/test_planner.py"
+    },
+    "format": {
+      "label": "Format",
+      "command": "/home/coderpad/.local/bin/black src/"
+    },
+    "dbg_main": {
+      "label": "ipdb Main (main.py)",
+      "command": "/home/coderpad/.local/bin/ipdb3 src/main.py"
+    },
+    "dbg_test_simulator": {
+      "label": "ipdb Test (test_simulator.py)",
+      "command": "/home/coderpad/.local/bin/ipdb3 src/test_simulator.py"
+    },
+    "dbg_test_planner": {
+      "label": "ipdb Test (test_planner.py)",
+      "command": "/home/coderpad/.local/bin/ipdb3 src/test_planner.py"
+    }
+  }
+}
